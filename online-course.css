@@ -1,0 +1,324 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.mainhomepage{
+    background-color: rgb(219, 162, 141);
+    padding: 10px 150px 10px 150px;
+    height: 600px;
+}
+.homepage{
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+    /* margin: 100px; */
+}
+.header1{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.create{
+    display: flex;
+    justify-content: space-around;   
+}
+.iconX{
+    margin-right: 10px;
+    color: red;
+    
+}
+.pageslink ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 15px; 
+}
+.registr{
+    /* background-color: aqua; */
+    display: flex;
+    gap: 20px;
+}
+.login{
+    display: flex;
+}
+.illustration{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.both{
+    display: flex;
+}
+.left-illustration{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    
+}
+/* .illustration-img{
+    background-color: aqua;
+   
+} */
+.illustration-btns{
+    display: flex;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+}
+.quantity{
+    display: flex;
+    align-items: center;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.chiked{
+    display: flex;
+    flex-direction: column;
+}
+.allchik{
+    display: flex;
+}
+.who-we-are{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:100px 0px 100px ;
+}
+.img-b{
+    width: 200px;
+
+}
+.with-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.allabout-course{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.card{
+    /* background-color: aqua; */
+    display: flex;
+    
+    /* align-items: center;
+    width: 900px; */
+}
+.img{
+    background-color: black;
+    width: 600px;
+}
+.img img{
+    width: 100%;
+}
+.linksss{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.benif{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.kap{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 300px;
+}
+.endpage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.illustration-img{
+    width: 600px;
+    height: 500px;
+}
+.illustration-img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.videotxt p{
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.video{
+    font-size: 50px;
+}
+.illustration-txt p{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom:30px ;
+}
+.btn1 button{
+    height: 30px;
+    width: 100px;
+    border-style: none;
+    margin-right: 20px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: smaller;
+    color: chocolate;
+    border: 1px solid orange;
+}
+.number p{
+    font-size:20px;
+    font-weight: bold;
+    margin-right: 2px;
+
+}
+.paragrafh p{
+    font-size: small;
+    color: rgb(90, 87, 87);
+    
+}
+.circle-icon{
+    margin-top: 10px;
+    font-size: 10px;
+    color: red;
+}
+.button button{
+    border:1ps solid rgb(250, 68, 31);
+    border-color:rgb(251, 180, 48);
+    border-radius: 4px;
+    width: 140px;
+    height: 33px;
+    text-align: center;
+    font-size: small;
+    background-color: rgba(207, 76, 0, 0.981);
+    color: white;
+}
+.btn1 button:hover{
+    background-color: rgb(229, 71, 4);
+    color: white;
+}
+.mainhomepage2{
+    background-color: rgb(252, 247, 246);
+    padding: 10px 150px 10px 150px;   
+}
+.img-b img{
+    width: 350px;
+}
+.who p{
+    font-size: small;
+    font-weight: bold;
+}
+.question p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.info-icon{
+    border: 2px solid red;
+    border-radius: 100%;
+    font-size: 10px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+}
+.p-txt p{
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.p-txt2 p{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.inf{
+    width: 900px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.btn-in button{
+    height: 28px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: green;
+    color: white;
+    margin-top: 20px;
+}
+.txt-inf p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.costs{
+    margin-top:20px ;
+    display: flex;
+    align-items: center;
+}
+.cost p{
+    color: red;
+    margin-right: 3px;
+}
+.cost{
+    border-right:2px solid black ;
+    margin-right: 10px;
+}
+.name p{
+    font-size: 16px;
+    color: rgb(111, 106, 106);
+}
+.par1 p{ 
+    margin-top: 100px;
+    margin-bottom:30px ;
+    font-size: small;
+    font-weight: bold;
+}
+.par2 p{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.btn-lnks button{
+    width: 200px;
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid rgb(180, 174, 174);
+    font-size: smaller;
+    text-align: center;
+    color: rgb(91, 89, 89);
+}
+.parag-txt p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.para2-txt p{
+    color: rgb(91, 89, 89);
+    font-size: small;
+}
