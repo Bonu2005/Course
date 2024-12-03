@@ -9,7 +9,7 @@ a{
     color: inherit;
 }
 .mainhomepage{
-    background-color: rgb(219, 162, 141);
+    background-color: rgb(252, 221, 209);
     padding: 10px 150px 10px 150px;
     height: 600px;
 }
@@ -30,6 +30,12 @@ a{
 .create{
     display: flex;
     justify-content: space-around;   
+}
+.sign{
+    margin-top: 10px;
+}
+.redtxt{
+    margin-top: 10px;
 }
 .iconX{
     margin-right: 10px;
@@ -117,14 +123,14 @@ a{
     margin-bottom: 20px;
 }
 .card{
-    /* background-color: aqua; */
-    display: flex;
-    
-    /* align-items: center;
-    width: 900px; */
+    margin-bottom: 30px;
+    display: flex;   
+    border: 2px solid rgb(234, 229, 229); 
+    box-shadow: 5px 5px 10px lightblue;
 }
+
 .img{
-    background-color: black;
+   
     width: 600px;
 }
 .img img{
@@ -179,8 +185,7 @@ a{
     margin-bottom:30px ;
 }
 .btn1 button{
-    height: 30px;
-    width: 100px;
+    padding: 15px;
     border-style: none;
     margin-right: 20px;
     border-radius: 4px;
@@ -230,10 +235,12 @@ a{
 .who p{
     font-size: small;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 .question p{
     font-size: 24px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 .info-icon{
     border: 2px solid red;
@@ -262,8 +269,7 @@ a{
     align-items:flex-start;
 }
 .btn-in button{
-    height: 28px;
-    width: 80px;
+   padding: 10px;
     border: 1px solid white;
     border-radius: 4px;
     background: green;
@@ -321,4 +327,128 @@ a{
 .para2-txt p{
     color: rgb(91, 89, 89);
     font-size: small;
+}
+.cards1{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.card1{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin-bottom: 20px;
+}
+.events{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events2{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+   
+}
+.events-txt p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.events-txt1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.about-time{
+    display: flex;
+    flex-direction: column;
+}
+.discrips{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    
+}
+.events{
+    background-color: rgb(252, 221, 209);
+    padding: 10px 150px 10px 150px;
+    height: 600px;
+    
+    
+}
+.txt-ev{
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+    margin-right: 20px;
+}
+.both-txt{
+    display: flex;
+    /* background-color: aqua; */
+}
+.month p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.time p{
+    color: rgb(121, 126, 130);
+    font-size: smaller;
+}
+/* .discr{
+    width: 750px;
+} */
+.discr p{
+    word-spacing: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    
+   
+    
+}
+.disc-txt p{
+    color: rgb(121, 126, 130);
+    font-size: smaller;
+}
+.btn-dsc button{
+    padding: 4px 50px 4px;
+    border-radius: 3px;
+    border: 1px solid rgb(239, 236, 235);
+    font-size:smaller;
+    color: orangered;
+}
+
+.btn-dsc button:hover{
+    background-color:  orangered;
+    color: white;
+}
+.all-both{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.par-all p{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+.btn-all button{
+    padding: 10px;
+    border: 1px solid orangered;
+    color: white;
+    background-color: orangered;
+    border-radius:2px ;
 }
